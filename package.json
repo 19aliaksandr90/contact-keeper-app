@@ -6,7 +6,8 @@
   "scripts": {
     "server": "cd server && yarn server",
     "client": "cd client && yarn start",
-    "dev": "concurrently \"yarn server\" \"yarn client\""
+    "dev": "concurrently \"yarn server\" \"yarn client\"",
+    "eslint": "cd client && yarn eslint"
   },
   "devDependencies": {
     "concurrently": "^6.0.0"
