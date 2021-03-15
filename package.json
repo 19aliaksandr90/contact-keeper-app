@@ -8,7 +8,8 @@
     "server": "nodemon server.js",
     "client" : "cd client && yarn start",
     "client-install": "cd client && yarn install",
-    "dev": "concurrently \"yarn client\" \"yarn server\""
+    "dev": "concurrently \"yarn client\" \"yarn server\"",
+    "eslint": "cd client && yarn eslint"
   },
   "repository": {
     "type": "git",
