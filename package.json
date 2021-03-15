@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client" : "cd client && yarn start",
+    "client-install": "cd client && yarn install",
+    "dev": "concurrently \"yarn client\" \"yarn server\""
   },
   "repository": {
     "type": "git",
