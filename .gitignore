@@ -1,6 +1,4 @@
 /node_modules
-<<<<<<< HEAD
-=======
 /.pnp
 .pnp.js
 
@@ -20,4 +18,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> de78489... CM-8-1 Setup FE part
