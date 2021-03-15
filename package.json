@@ -2,24 +2,6 @@
   "name": "contact-keeper-app",
   "version": "1.0.0",
   "description": "Contact manager app",
-<<<<<<< HEAD
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client" : "cd client && yarn start",
-    "client-install": "cd client && yarn install",
-    "dev": "concurrently \"yarn client\" \"yarn server\"",
-    "eslint": "cd client && yarn eslint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/19aliaksandr90/contact-keeper-app.git"
-  },
-  "keywords": [],
-  "author": "",
-=======
->>>>>>> de78489... CM-8-1 Setup FE part
   "license": "ISC",
   "scripts": {
     "server": "cd server && yarn server",
