@@ -2,6 +2,7 @@
   "name": "contact-keeper-app",
   "version": "1.0.0",
   "description": "Contact manager app",
+<<<<<<< HEAD
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -17,21 +18,15 @@
   },
   "keywords": [],
   "author": "",
+=======
+>>>>>>> de78489... CM-8-1 Setup FE part
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/19aliaksandr90/contact-keeper-app/issues"
-  },
-  "homepage": "https://github.com/19aliaksandr90/contact-keeper-app#readme",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "config": "^3.3.4",
-    "express": "^4.17.1",
-    "express-validator": "^6.10.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.18"
+  "scripts": {
+    "server": "cd server && yarn server",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
   },
   "devDependencies": {
-    "concurrently": "^6.0.0",
-    "nodemon": "^2.0.7"
+    "concurrently": "^6.0.0"
   }
 }
