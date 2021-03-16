@@ -1,5 +1,6 @@
 {
   "eslint.workingDirectories": [
   { "directory": "client/", "changeProcessCWD": true },
-]
+],
+"files.eol": "\n"
 }
