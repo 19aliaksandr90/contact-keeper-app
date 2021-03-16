@@ -366,6 +366,10 @@ table th {
   margin-bottom: 1rem;
 }
 
+.navbar i {
+  margin-right: 1rem;
+}
+
 .navbar ul {
   display: flex;
 }
